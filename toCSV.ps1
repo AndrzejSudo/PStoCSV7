@@ -17,7 +17,7 @@ try {
     function get-vals {
         for ($i = 1; $i -le $cnt; $i++) {
             $input = Read-Host -Prompt "Enter value no. $i"
-            $vals += $input + '	'
+            $vals += $input + $deli
             if ($i -eq $cnt) {
             }
         }
